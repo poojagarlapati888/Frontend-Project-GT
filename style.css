@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 50px;
+}
+
+.card {
+  width: 280px;
+  height: 370px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card .top {
+  background: blueviolet;
+  height: 120px;
+  position: relative;
+}
+
+.card .social {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  gap: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid blueviolet;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 22px;
+  color: #333;
+}
+
+h4 {
+  color: gray;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.star {
+  margin: 10px 0;
+  color: blueviolet;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background: blueviolet;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: purple;
+}
